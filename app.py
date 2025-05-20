@@ -5,5 +5,6 @@ app = Flask(__name__)
 def hello():
     return "<h1>Hello, World! This is Monkey JayJay</h1>"
 @app.route("/index.html")
+@app.route("/fake.html")
 def indexG():
     return "<h1>Hello, World! This is index.html</h1>"
