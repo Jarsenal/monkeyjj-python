@@ -10,7 +10,7 @@ def hello():
 def indexG():
     return "<h1>Hello, World! This is index.html</h1>"
 
-username = 'Daddy'
 @app.route("/daddy")
 def name():
+    username = 'Daddy'
     return render_template('index.html', title='Hohoho', username=username)
