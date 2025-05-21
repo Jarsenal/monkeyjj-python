@@ -13,6 +13,6 @@ def indexG():
     return "<h1>Hello, World! This is index.html</h1>"
 
 username = 'Daddy Zhou'
-@app.route("/daddy")
+@app.route("/" + username)
 def name():
     return render_template('index.html', title='Hohoho', username=username)
