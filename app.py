@@ -15,4 +15,4 @@ def indexG():
 username = 'daddyyyy'
 @app.route("/" + username)
 def name():
-    return render_template('index.html', title=title, username=username)
+    return render_template('index.html', title='HoHoHo', username=username)
