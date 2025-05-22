@@ -1,0 +1,2 @@
+Why python virtual env?
+  So different versions of package can be used in different virtual envs
